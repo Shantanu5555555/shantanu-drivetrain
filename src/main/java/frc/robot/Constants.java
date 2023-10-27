@@ -4,6 +4,8 @@
 
 package frc.robot;
 
+import edu.wpi.first.hal.FRCNetComm;
+
 /**
  * The Constants class provides a convenient place for teams to hold robot-wide numerical or boolean
  * constants. This class should not be used for any other purpose. All constants should be declared
@@ -13,7 +15,13 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
-  public static class OperatorConstants {
+  public static final int FL = 3;
+  public static final int FR = 1;
+  public static final int BL = 4;
+  public static final int BR = 2;
+  public static final double Lyvalue = 5;
+  public static final double RYvalue = 1;
+    public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
   }
 }
